@@ -219,7 +219,7 @@ img {
   }
 }
 .gallery-image {
-  padding: 20px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -227,7 +227,7 @@ img {
 
 .img-box {
   box-sizing: content-box;
-  margin: 10px;
+  margin: 0px;
   height: 250px;
   width: 350px;
   overflow: hidden;
@@ -355,6 +355,35 @@ img {
   word-spacing: 100vw;
 }
 
+.footer_link_text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 65px;
+}
+
+.text {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
 #foot {
   flex-wrap: wrap;
   background-color: black;
@@ -400,12 +429,6 @@ i {
 
 .caja-comentarios {
   flex-wrap: wrap;
-}
-
-footer-link {
-  color: white;
-  font-size: 3rem;
-  text-decoration: none;
 }
 
 .form-container {
