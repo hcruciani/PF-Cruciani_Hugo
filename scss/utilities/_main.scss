@@ -1,7 +1,17 @@
 .main {
     max-width: 1200px;
     max-height: 800px;
-}
+    padding-right: 0px;
+    margin: 0%;
+        border: 0%;
+       
+                width: 100%;
+                max-width: 1200px;
+                    /* Cambia este valor según tus necesidades */
+                    margin: 0 auto;
+            
+    }
+
 
 .hero-section {
     align-items: flex-start;

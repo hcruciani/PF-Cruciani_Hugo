@@ -1,20 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    flex-wrap: wrap;
 }
 
-html {
-    font-size: 62.5%;
-}
+
 
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    margin: 0%;
+        border: 0%;
+        height: 100vh;
+        box-sizing: border-box;
+        --width-container: 1500px;
+        
 }
-
 body {
+    box-sizing: border-box;
     height: 100%;
+    margin: 0%;
+    border: 0%;
+    height: 100vh;
+    --width-container: 1500px;
 }
 
 :root {
@@ -26,8 +35,15 @@ body {
     --spacing-l: 24px;
     --spacing-xl: 32px;
     --spacing-xxl: 64px;
+    --width-container: 1500px;
+    padding: 0px;
+    margin: 0%;
+        border: 0%;
+          margin: 0%;
+    border: 0%;
     --width-container: 1200px;
-}
+    }
+
 
 a {
     color: yellow;
@@ -40,4 +56,14 @@ ul {
 
 img {
     width: 100%;
+}
+
+#header,
+.main,
+#nuestros-clientes,
+#Contacto,
+#foot {
+    max-width: var(--width-container);
+    
+    
 }

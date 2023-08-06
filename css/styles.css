@@ -1,20 +1,28 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
+  box-sizing: content-box;
+  flex-wrap: wrap;
 }
 
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  margin: 0%;
+  border: 0%;
+  height: 100vh;
+  box-sizing: border-box;
+  --width-container: 1500px;
 }
 
 body {
+  box-sizing: border-box;
   height: 100%;
+  margin: 0%;
+  border: 0%;
+  height: 100vh;
+  --width-container: 1500px;
 }
 
 :root {
@@ -26,6 +34,12 @@ body {
   --spacing-l: 24px;
   --spacing-xl: 32px;
   --spacing-xxl: 64px;
+  --width-container: 1500px;
+  padding: 0px;
+  margin: 0%;
+  border: 0%;
+  margin: 0%;
+  border: 0%;
   --width-container: 1200px;
 }
 
@@ -40,6 +54,14 @@ ul {
 
 img {
   width: 100%;
+}
+
+#header,
+.main,
+#nuestros-clientes,
+#Contacto,
+#foot {
+  max-width: var(--width-container);
 }
 
 #header {
@@ -78,6 +100,13 @@ img {
 .main {
   max-width: 1200px;
   max-height: 800px;
+  padding-right: 0px;
+  margin: 0%;
+  border: 0%;
+  width: 100%;
+  max-width: 1200px;
+  /* Cambia este valor según tus necesidades */
+  margin: 0 auto;
 }
 
 .hero-section {
@@ -389,10 +418,12 @@ img {
   background-color: black;
   border-top: 2px solid black;
   margin-top: 8px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 8rem;
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .foot-box {
