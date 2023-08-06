@@ -1,0 +1,52 @@
+#foot {
+    flex-wrap: wrap;
+    background-color: black;
+    border-top: 2px solid black;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.foot-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+#foot p {
+    font-size: 2rem;
+    background-color: goldenrod;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+iframe {
+    width: 330px;
+    height: 330px;
+}
+
+.redes {
+    display: flex;
+    gap: 3rem;
+}
+
+i {
+    font-size: 5rem;
+}
+
+.caja-comentarios {
+    flex-wrap: wrap;
+}
+
+footer-link {
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
