@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../scss/views/_pages\,scss);
 * {
   margin: 0;
@@ -114,6 +115,28 @@ html {
   color: white;
 }
 
+.hamburger-menu {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .header_menu_link {
+    display: none;
+    /* Ocultar los enlaces regulares en pantallas pequeñas */
+  }
+  .hamburger-menu {
+    display: block;
+    /* Mostrar el icono de menú hamburguesa */
+  }
+  /* Estilos del menú hamburguesa */
+  .hamburger-menu {
+    font-size: 2rem;
+  }
+}
+/* Resto de los estilos... */
 h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -384,6 +407,9 @@ h6 h6 {
 .card {
   list-style: none;
   position: relative;
+  list-style: none;
+  position: relative;
+  border: 1px solid white;
 }
 
 .card:before {

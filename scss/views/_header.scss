@@ -1,3 +1,5 @@
+
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -31,4 +33,29 @@
     color: white;
 }
 
+.hamburger-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .header_menu_link {
+        display: none;
+        /* Ocultar los enlaces regulares en pantallas pequeñas */
+    }
+
+    .hamburger-menu {
+        display: block;
+        /* Mostrar el icono de menú hamburguesa */
+    }
+
+    /* Estilos del menú hamburguesa */
+    .hamburger-menu {
+        font-size: 2rem;
+    }
+}
+
+/* Resto de los estilos... */
 
