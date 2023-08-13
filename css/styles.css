@@ -508,4 +508,22 @@ html {
   background-image: linear-gradient(-20deg, #181817 0%, #e6e036 100%);
 }
 
+.form-container {
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  inline-size: 25rem;
+  margin: 0 auto;
+  margin-block-start: 10rem;
+  margin-block-end: 8rem;
+  /* Espacio de 8rem hacia abajo */
+  text-align: center;
+  padding-block-end: 2rem;
+  padding-block-start: 2rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+
+/* Resto de los estilos del formulario de contacto... */
+
 /*# sourceMappingURL=styles.css.map */
