@@ -3,21 +3,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 3rems;
-    
+    margin-top: 7rems;
+box-sizing: border-box;
+    margin-bottom: 20px;
+
 }
 
+
 .img-box {
-    box-sizing: content-box;
+    box-sizing: border-box;
+    margin-left: 3rem;
     margin: 0px;
     height: 250px;
-    width: 350px;
+    width: 300px;
     overflow: hidden;
     display: inline-block;
     color: white;
     position: relative;
     background-color: black;
-    
+    margin-top: 5.2rem;
+
 }
 
 .img-box img {
@@ -25,6 +30,7 @@
     width: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
+    box-sizing: content-box;
 }
 
 .img-box:hover img {
@@ -61,7 +67,8 @@
 .img-box:hover {
     cursor: pointer;
 }
-// _gallery.scss
+
+
 
 .slider {
     background: white;
@@ -70,6 +77,6 @@
     overflow: hidden;
     position: relative;
     width: 95%;
-    margin-top: 5rem; // Agrega el margen de 5 rem
+    margin-top: 5rem; 
     margin-bottom: 7rem;
 }
