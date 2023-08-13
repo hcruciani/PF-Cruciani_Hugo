@@ -27,7 +27,12 @@
 .redes {
     display: flex;
     gap: 2rem;
-    font-size: 2rem;
+    font-size: 2.8rem; // Aumenta el tamaño de los íconos en un 70%
+    color: #ffff00; // Color amarillo (#ffff00)
+
+    i {
+        font-size: 3.78rem; // Aumenta el tamaño de los íconos en un 70%
+    }
 }
 
 .caja-comentarios {
@@ -37,10 +42,3 @@
     margin-top: 3rem;
     width: 100%;
 }
-
-/* Agrega estilos a tus íconos si es necesario */
-.caja-comentarios i {
-    font-size: 3rem;
-}
-
-/* Resto de tus estilos ... */

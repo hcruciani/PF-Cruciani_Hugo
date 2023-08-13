@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 3rems;
     
 }
 
@@ -16,6 +17,7 @@
     color: white;
     position: relative;
     background-color: black;
+    
 }
 
 .img-box img {
@@ -58,4 +60,16 @@
 
 .img-box:hover {
     cursor: pointer;
+}
+// _gallery.scss
+
+.slider {
+    background: white;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 95%;
+    margin-top: 5rem; // Agrega el margen de 5 rem
+    margin-bottom: 7rem;
 }

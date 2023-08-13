@@ -1,17 +1,47 @@
-.main {
-    max-width: 1200px;
-    max-height: 800px;
-    padding-right: 0px;
-    margin: 0%;
-        border: 0%;
-       
-                width: 100%;
-                max-width: 1200px;
-                    /* Cambia este valor según tus necesidades */
-                    margin: 0 auto;
-            
+// _main.scss
+
+
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
 
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    h5 {
+        font-size: 6rem;
+        text-align: center;
+    }
+    h6 {
+        font-size: 2.4rem;
+            text-align: center;
+            $animation-duration: 1s;
+            
+                @keyframes aparecerDesdeAbajo {
+                    0% {
+                        transform: translateY(20px);
+                        opacity: 0;
+                    }
+            
+                    100% {
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                }
+            
+                h6 {
+                    animation: aparecerDesdeAbajo $animation-duration ease-out both;
+                }
+            
+                // Resto de tu código SCSS
+    }
+
+.pages title{
+font-size: xx-large;
+}
 
 .hero-section {
     align-items: flex-start;
