@@ -1,4 +1,4 @@
-// _footer.scss
+/* _footer.scss */
 
 #foot {
     display: flex;
@@ -28,10 +28,11 @@
     display: flex;
     gap: 2rem;
     font-size: 2.8rem; // Aumenta el tamaño de los íconos en un 70%
-    color: #ffff00; // Color amarillo (#ffff00)
+    color: #ffff00; // Cambia el color a amarillo (#ffff00)
 
     i {
         font-size: 3.78rem; // Aumenta el tamaño de los íconos en un 70%
+        color: #ffff00; // Cambia el color a amarillo (#ffff00)
     }
 }
 
